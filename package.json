@@ -1,0 +1,15 @@
+{
+  "name": "desafio_final",
+  "version": "1.0.0",
+  "description": "Desafio final para a formação em testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vinicius Loch",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  }
+}
