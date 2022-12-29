@@ -1,6 +1,6 @@
 /// <reference types= 'cypress'/>
 
-describe('Validando acesso ao admin, pesquisando usuario e excluindo', () => {
+describe('Validando acesso ao admin, pesquisando usuario', () => {
     beforeEach(()=>{
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         cy.get('input[name=username]').type('Admin')
