@@ -1,11 +1,10 @@
+import Login from "../support/Pages/Login"
 /// <reference types= 'cypress'/>
+
 
 describe('Validando login and logout', ()=>{
     it('Validando login no sistema', ()=>{  
-    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    cy.get('input[name=username]').type('Admin')
-    cy.get('input[name=password]').type('admin123')
-    cy.get('.oxd-button').click()
+    Login.logar('Admin', 'admin123')
     cy.get('.oxd-userdropdown-tab').should('be.visible')
     })
 

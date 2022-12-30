@@ -13,7 +13,7 @@ describe('Validando acesso ao recruitment e realizando donwload do curriculo', (
 
     it('Validando download de arquivo', () => {
         cy.contains('span', 'Recruitment').click()
-        cy.get(':nth-child(13) > .oxd-table-row > :nth-child(7) > .oxd-table-cell-actions > :nth-child(3) > .oxd-icon').click()
+        cy.get(':nth-child(9) > .oxd-table-row > :nth-child(7) > .oxd-table-cell-actions > :nth-child(3) > .oxd-icon').click()
         cy.readFile('cypress/downloads/resume.pdf').should('exist')        
     })
 }) 
