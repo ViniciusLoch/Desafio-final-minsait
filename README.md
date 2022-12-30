@@ -1,7 +1,7 @@
 # Desafio-final-minsait
 Projeto final da formação em testes automatizados realizado pela minsait em parceria com a uniesp.
 Foi realizado 4 suítes de testes enumerados para melhor entendimento, o site utilizado foi:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-abaixo explico melhor o que foi feito em casa suíte.
+abaixo explico melhor o que foi feito em cada suíte.
 
 Por ser um material de estudo, foi colocado em pratica varias formas de seleção de elementos e boas praticas. Apos a correção do projeto pretendo aprimorar os seletores.
 # Suíte 1
