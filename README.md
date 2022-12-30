@@ -10,4 +10,4 @@ Responsável por validar o login e logout do sistema, aqui implementei a pratica
 # Suíte 3
 Responsável por validar a o campo de buscas, entrando dentro da pagina de  admin e validando que realmente está dentro.
 # Suíte 4
-Aqui validei o acesso a pagina de recrutamento e busquei o curriculo do ultimo candidato da pagina, foi feito o donwload do "resume" e validação.
+Aqui validei o acesso a pagina de recrutamento e busquei o curriculo do ultimo candidato da pagina, pois é o candidato que está esperando por mais tempo por uma resposta, foi feito o donwload do "resume" e validação do download.
